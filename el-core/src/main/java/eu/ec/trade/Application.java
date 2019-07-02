@@ -20,7 +20,7 @@ public class Application {
         System.out.println("Before search");
 
         if (users.containsKey(user1)) {
-            System.out.println("User found in the collection");
+            System.out.println("User found in collection");
         }
     }
 }
