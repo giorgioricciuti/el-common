@@ -11,9 +11,9 @@ public class Application {
         User user2 = new User(2L, "Jennifer", "jennifer@domain.com");
         User user3 = new User(3L, "Mary", "mary@domain.com");
 
-        System.out.println("Before first");
+        System.out.println("Before first put");
         users.put(user1, user1);
-        System.out.println("After first");
+        System.out.println("After first put");
         users.put(user2, user2);
         users.put(user3, user3);
 
